@@ -1,0 +1,41 @@
+
+
+
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(red,rgb(243, 72, 101));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+
+    border: 0;
+    width: 50%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-collapse: collapse;
+
+    border-radius: 15px;
+}
+button{
+
+    background-color: #ff758c;
+    color: white;
+    transition: background-color 2s;
+    cursor: pointer;
+}
+
+button.no:hover {
+    transform: translate(40px, -20px) rotate(-10deg);
+}
+
+img {
+    max-width: 500px;          /* Mantiene la GIF proporzionata */
+    width: 100%;               /* Occupa tutto lo spazio disponibile fino a max-width */
+    height: auto;
+    border-radius: 20px;       /* Angoli arrotondati, opzionale */
+}
